@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+{% block main_content %}
+
+
+    <div class="container control-area">
+
+        <!-- When a user visits the page -->
+        <div class="first-lev active" id="firstLev">
+            <p>A new user?</p>
+            <div class="response">
+                <button class="new-user-yes-btn" id="NewUserYesBtn">Yes</button>
+                <button class="new-user-no-btn" id="NewUserNoBtn">No</button>
+            </div>
+        </div>
+        <!-- -------------------- -->
+
+
+        <!-- When a user inputs the id -->
+        <div class="id-lev" id="IdLev">
+            <p>Enter your ID</p>
+            <div class="id-input">
+                <input type="number" class="id-input" id="idInput">
+                <input type="submit" value="Recommend" class="control-btn" id="idSubmitBtn">
+            </div>
+            <div class="errors" id="idErrors"></div>
+        </div>
+        <!-- -------------------- -->
+
+        <div class="preferences-lev" id="preferencesLev">
+            <p>Select your preferences</p>
+            <div class="inputs" id="preferencesInputs"></div>
+            <input type="submit" value="Recommend" class="control-btn" id="preferenceSubmitBtn">
+            <div class="errors" id="preferencesErrors"></div>
+        </div>
+
+        <div class="reset-lev" id="resetLev">
+            <button class="control-btn" id="resetBtn">Reset</button>
+        </div>
+    </div>
+
+    <div class="container content-area" id="result"></div>
+
+{% endblock %}
