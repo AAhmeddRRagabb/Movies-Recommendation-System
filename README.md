@@ -12,36 +12,11 @@ This project mainly passed through four stages
 4. Serving the model: Use the `flask` enviroment to sever the model with a sumple UI with `CSS & JS`
 
 ## Project Structure
-📦 movie-recommender
-│
-├── recommendation.ipynb        # Jupyter notebook for EDA, model training, experiments
-├── utils.py                    # General helper functions for data processing, etc.
-│
-├── server/                     # Backend server & deployment code
-│   ├── app.py                  # Flask app entry point
-│   │
-│   ├── utils/                  # Utilities for inference & serving
-│   │   └── inference.py        # Logic to load the model & generate predictions
-│   │
-│   ├── templates/              # HTML templates (Flask Jinja2)
-│   │   ├── base.html           # Base layout template
-│   │   └── index.html          # Main app page
-│   │
-│   └── static/                 # Static frontend assets
-│       ├── css/
-│       │   └── main.css        # Styles for frontend
-│       │
-│       └── js/
-│           ├── firstLevelLogic.js
-│           ├── idLev.js
-│           ├── preferenceLev.js
-│           ├── reset.js
-│           └── utils.js
-│
-├── requirements.txt            # Python dependencies
-├── README.md                   # Project description, setup guide
-└── .gitignore                  # Ignore virtual envs, cache, etc.
-
+The project contains:
+- A Jupyter notebook for data exploration, model training, and experimentation, along with a utility script.
+- A Flask-based server application for deployment, including templates, static assets (CSS/JS), and inference utilities.
+- The datasets used for training and evaluation.
+- Saved trained objects (the model and scalers).
 
 ## Data Source
 The dataset used in this project is originally from the [MovieLens dataset](https://grouplens.org/datasets/movielens/latest/) but was accessed through the course materials provided in [ML Specialization](https://www.coursera.org/specializations/machine-learning-introduction).
