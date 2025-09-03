@@ -39,8 +39,9 @@ This project mainly passed through four stages
 │           └── utils.js
 │
 ├── requirements.txt            # Python dependencies
-|── README.md                   # Project description, setup guide
-|__
+├── README.md                   # Project description, setup guide
+└── .gitignore                  # Ignore virtual envs, cache, etc.
+
 
 ## Data Source
 The dataset used in this project is originally from the [MovieLens dataset](https://grouplens.org/datasets/movielens/latest/) but was accessed through the course materials provided in [ML Specialization](https://www.coursera.org/specializations/machine-learning-introduction).
