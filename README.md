@@ -1,7 +1,7 @@
 # Movies Recommendation System
 
 ## Overview
-This project is designed to practice building a recommendation system using a Neural Network (NN) model implemented in `Keras`. The system applies content-based filtering on movie datasets. The dataset used in this project is originally from the [MovieLens dataset](https://grouplens.org/datasets/movielens/latest/) but was accessed through the course materials provided in [ML Specialization](https://www.coursera.org/specializations/machine-learning-introduction).
+This project was developed to practice building a recommendation system using a Neural Network (NN) model implemented in Keras. It applies a content-based filtering approach on movie data. The dataset includes user preferences (favorite genres), movie genre details, and user ratings. The model predicts a user’s rating for each movie and recommends the top 10 movies with the highest predicted ratings.
 
 ## Overflow
 This project mainly passed through four stages
