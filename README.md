@@ -3,7 +3,7 @@
 ## Overview
 This project was developed to practice building a recommendation system using a Neural Network (NN) model implemented in `Keras`. It applies a content-based filtering approach on movie data. The dataset includes user preferences (favorite genres), movie genre details, and user ratings. The model predicts a user’s rating for each movie and recommends the top 10 movies with the highest predicted ratings.
 
-## Overflow
+## Project Workflow
 This project mainly passed through four stages
 1. Data Exploration with `Pandas & NumPy`: Conducted a comprehensive analysis to understand the dataset, identify dependencies between tables, clean and standardize the data, and extract relevant features for model building.
 2. Model Building: Used `scikit-learn` and `Keras` to preprocess the data, build the neural network model, and evaluate its performance.
